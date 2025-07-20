@@ -287,4 +287,35 @@ main{
 .is-hidden{
     opacity: 0;
     pointer-events: none ;
+    display: none;
+}
+
+.pages{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_page{
+        border: 1px solid transparent;
+        margin-right: 5px;
+        background-color: transparent;
+        color: white;
+        width: 30px;
+        height: 30px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+
+        &:hover{
+            border-color: #DC56C5 ;
+            color: #DC56C5;
+        }
+    }
+    
 }
